@@ -3242,3 +3242,69 @@ input, select, textarea {
 	justify-content: center;
 	align-items: center;
 }
+/* General styles for section */
+#three {
+	padding: 4em 0;
+	
+  }
+  
+  #three .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  #three .image.fit.primary {
+	margin-bottom: 2em;
+  }
+  
+  #three .content {
+	max-width: 800px;
+	text-align: center;
+  }
+  
+  #three header.major h2 {
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+	color: #333;
+  }
+  
+  #three p {
+	font-size: 1.25em;
+	color: #666;
+  }
+  
+  #three .skills-list {
+	list-style: none;
+	padding: 0;
+	margin: 2em 0 0;
+  }
+  
+  #three .skills-list li {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 1em;
+	margin: 0.5em 0;
+	transition: background 0.3s, border 0.3s;
+  }
+  
+  #three .skills-list li:hover {
+	background: #f0f0f0;
+	border-color: #ccc;
+  }
+  
+  /* Styling for "Next" link */
+  #three .goto-next {
+	display: inline-block;
+	margin-top: 2em;
+	padding: 1em 2em;
+	
+	color: #fff;
+	border-radius: 50px;
+	text-decoration: none;
+	transition: background 0.3s;
+  }
+  
+  
+  
